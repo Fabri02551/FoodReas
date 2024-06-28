@@ -1,0 +1,40 @@
+.view-recipe-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.view-recipe-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 2rem;
+}
+
+.view-recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.rating {
+  margin-top: 20px;
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.star.filled {
+  color: #ffc107;
+}

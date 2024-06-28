@@ -1,0 +1,93 @@
+/* src/pages/MyRecipes/MyRecipes.css */
+.my-recipes-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+.my-recipes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.insert-recipe-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.insert-recipe-button:hover {
+  background-color: #218838;
+}
+
+.recipes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.recipe-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-card h3 {
+  margin-top: 0;
+}
+
+.recipe-card img {
+  max-width: 100%;
+  height: 180px; 
+  margin-bottom: 10px;
+}
+
+.recipe-card p {
+  margin: 10px 0;
+}
+
+.recipe-card .button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.recipe-card button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  flex: 1;
+}
+
+.recipe-card button:hover {
+  background-color: #0056b3;
+}
+
+.recipe-card button:last-child {
+  background-color: #dc3545;
+  margin-right: 0; /* Remove the right margin from the last button */
+}
+
+.recipe-card button:last-child:hover {
+  background-color: #c82333;
+}
+
+.no-recipes-message {
+  font-size: 20px;
+  color: #999;
+  width: 100%;
+}

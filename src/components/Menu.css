@@ -1,0 +1,50 @@
+/* src/components/Menu.css */
+.menu {
+    width: 200px;
+    height: 100vh;
+    background-image: url('../assets/images/Menuss.avif'); /* Cambia esto por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .menu li {
+    width: 100%;
+  }
+  
+  .menu li a, .menu li button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  .menu li a:hover, .menu li button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .menu li button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+  }
+  .menu h1 {
+    text-align: center;
+    color: white;
+  }
+  
